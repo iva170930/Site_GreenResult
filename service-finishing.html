@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ванные комнаты «под ключ» - GREEN-RESULT</title>
+  <meta name="description" content="Ремонт и обустройство ванных комнат «под ключ» от GREEN-RESULT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-v2" data-service-id="bathroom_turnkey">
+  <div class="page-shell">
+    <header class="header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="GREEN-RESULT"><span>GREEN-RESULT</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+        <nav class="menu">
+          <a href="index.html">Главная</a>
+          <div class="nav-item">
+            <button class="nav-trigger" type="button" aria-expanded="false">Услуги</button>
+            <div class="dropdown-menu">
+              <a href="service-finishing.html">Ванные комнаты «под ключ»</a>
+              <a href="service-electrics.html">Электрика</a>
+              <a href="service-hydraulics.html">Сантехника</a>
+              <a href="service-floors.html">Отделка стен и полов</a>
+            </div>
+          </div>
+          <a href="cases.html">Реализации</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <button class="btn btn-primary" type="button" onclick="sendTG()">Связаться с нами</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="inner-hero">
+        <div class="container service-hero-grid">
+          <div class="reveal">
+            <p class="eyebrow" id="service-tag">Услуга</p>
+            <h1 id="service-title">Услуга GREEN-RESULT</h1>
+            <p class="section-text" id="service-desc">Описание услуги загрузится автоматически.</p>
+            <div class="service-price reveal" id="service-price"></div>
+          </div>
+          <div class="service-image-wrap reveal"><img id="service-img" src="images/hero.jpg" alt="Иллюстрация услуги"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" id="service-detail"></div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div class="reveal">
+            <p class="eyebrow">Структура работ</p>
+            <h2 class="section-title">Ключевые разделы услуги</h2>
+          </div>
+          <div class="service-list-card reveal"><ul class="service-list" id="service-subservices"></ul></div>
+        </div>
+      </section>
+
+      <section class="section section-accent">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Преимущества</p>
+            <h2 class="section-title">Почему выбирают GREEN-RESULT</h2>
+          </div>
+          <div class="feature-grid" id="service-benefits"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div class="reveal">
+            <p class="eyebrow">Этапы</p>
+            <h2 class="section-title">Как проходит реализация</h2>
+          </div>
+          <ol class="step-list reveal" id="service-steps"></ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-panel reveal">
+          <div>
+            <p class="eyebrow">Результат</p>
+            <h2 class="section-title" id="service-result"></h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Другие услуги</p>
+            <h2 class="section-title">Выберите нужное направление</h2>
+          </div>
+          <div class="feature-grid" id="related-services"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div><a class="logo" href="index.html">GREEN-RESULT</a><p class="footer-text">Комплексные ремонтно-отделочные услуги.</p></div>
+        <div><h3>Разделы</h3><a href="services.html">Услуги</a><a href="cases.html">Реализации</a><a href="contacts.html">Контакты</a></div>
+        <div><h3>Контакты</h3><a href="tel:+48123456789">+48 123 456 789</a><a href="mailto:iva170930@gmail.com">iva170930@gmail.com</a></div>
+      </div>
+      <div class="container footer-bottom"><span>(c) <span id="year"></span> GREEN-RESULT</span></div>
+    </footer>
+  </div>
+  <script src="js/services-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/service.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>

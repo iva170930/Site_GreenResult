@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты - GREEN-RESULT</title>
+  <meta name="description" content="Свяжитесь с GREEN-RESULT: телефон, email, мессенджеры и быстрая форма заявки на ремонт в Польше.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-v2">
+  <div class="page-shell">
+    <header class="header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="GREEN-RESULT"><span>GREEN-RESULT</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+        <nav class="menu">
+          <a href="index.html">Главная</a>
+          <div class="nav-item">
+            <button class="nav-trigger" type="button" aria-expanded="false">Услуги</button>
+            <div class="dropdown-menu">
+              <a href="service-finishing.html">Ванные комнаты «под ключ»</a>
+              <a href="service-electrics.html">Электрика</a>
+              <a href="service-hydraulics.html">Сантехника</a>
+              <a href="service-floors.html">Отделка стен и полов</a>
+            </div>
+          </div>
+          <a href="cases.html">Реализации</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <button class="btn btn-primary" type="button" onclick="sendTG()">Связаться с нами</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-page">
+      <section class="contact-page-hero">
+        <div class="container reveal">
+          <article class="contact-page-hero-card">
+            <div class="contact-page-hero-copy">
+              <p class="eyebrow">Контакты</p>
+              <h1>Свяжитесь с нами и получите расчет в тот же день</h1>
+              <p>Напишите в форму, позвоните или отправьте сообщение в мессенджер. Подскажем по срокам, бюджету и предложим оптимальный формат работ под ваш объект в Польше.</p>
+              <div class="contact-page-hero-actions">
+                <a class="btn btn-primary" href="#contact-form-section">Отправить заявку</a>
+                <a class="btn btn-secondary" href="tel:+48500000000">Позвонить сейчас</a>
+              </div>
+            </div>
+            <figure class="contact-page-hero-media" aria-hidden="true">
+              <img src="images/hero-main.png" alt="Команда GREEN-RESULT обсуждает проект">
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-page-info">
+        <div class="container">
+          <div class="contact-info-cards reveal" aria-label="Контактные данные">
+            <article class="contact-info-card">
+              <div class="contact-info-icon" aria-hidden="true">📞</div>
+              <h2>Телефон</h2>
+              <a href="tel:+48500000000">+48 500 000 000</a>
+              <p>Ежедневно с 09:00 до 19:00</p>
+            </article>
+            <article class="contact-info-card">
+              <div class="contact-info-icon" aria-hidden="true">✉️</div>
+              <h2>Email</h2>
+              <a href="mailto:iva170930@gmail.com">iva170930@gmail.com</a>
+              <p>Отвечаем в течение рабочего дня</p>
+            </article>
+            <article class="contact-info-card">
+              <div class="contact-info-icon" aria-hidden="true">📍</div>
+              <h2>Локация</h2>
+              <p>Варшава, Польша</p>
+              <p>Работаем по всей Польше</p>
+              <div class="contact-map-wrap contact-map-inline" aria-label="Карта">
+                <iframe
+                  title="Карта: Варшава, Польша"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=20.90%2C52.18%2C21.15%2C52.31&layer=mapnik&marker=52.2297%2C21.0122">
+                </iframe>
+              </div>
+            </article>
+          </div>
+
+          <div class="contact-messenger-row reveal">
+            <a class="contact-quick-btn is-call" href="tel:+48500000000" aria-label="Позвонить в GREEN-RESULT">Позвонить</a>
+            <a class="contact-quick-btn is-wa" href="https://wa.me/48500000000?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D1%83." target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp">WhatsApp</a>
+            <a class="contact-quick-btn is-tg" href="https://t.me/share/url?url=https%3A%2F%2Fgreen-result.pl&text=%D0%9D%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D1%83" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram">Telegram</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contacts-2026" id="contact-form-section">
+        <div class="container">
+          <div class="contact-shell">
+            <aside class="contact-info-panel reveal" aria-label="Почему удобно оставить заявку">
+              <h2 class="section-title contact-mini-title">Почему клиенты выбирают нас</h2>
+              <p class="contact-trust">Фиксируем этапы и стоимость, держим связь и даем понятный план работ без лишней бюрократии.</p>
+              <ul class="contact-list">
+                <li><span class="contact-icon" aria-hidden="true">✔</span><span>Ответ в течение рабочего дня</span></li>
+                <li><span class="contact-icon" aria-hidden="true">✔</span><span>Прозрачная смета и сроки</span></li>
+                <li><span class="contact-icon" aria-hidden="true">✔</span><span>Работаем по всей Польше</span></li>
+              </ul>
+            </aside>
+
+            <div class="contact-form-panel reveal">
+              <h2 class="section-title contact-mini-title">Оставьте заявку</h2>
+              <form id="contacts-form-main" novalidate>
+                <div class="field-control">
+                  <label for="c-name">Имя</label>
+                  <input id="c-name" name="name" type="text" autocomplete="name" placeholder="Например: Иван Иванов" required autofocus>
+                  <small class="field-error" id="err-name" aria-live="polite"></small>
+                </div>
+
+                <div class="field-control">
+                  <label for="c-phone">Телефон</label>
+                  <input id="c-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+48 500 000 000" required aria-describedby="phone-hint err-phone">
+                  <small id="phone-hint" class="field-hint">Формат: +48 XXX XXX XXX</small>
+                  <small class="field-error" id="err-phone" aria-live="polite"></small>
+                </div>
+
+                <div class="field-control">
+                  <label for="c-email">Email</label>
+                  <input id="c-email" name="email" type="email" autocomplete="email" placeholder="Например: ivanov@gmail.com" required>
+                  <small class="field-error" id="err-email" aria-live="polite"></small>
+                </div>
+
+                <div class="field-control">
+                  <label for="c-message">Сообщение</label>
+                  <textarea id="c-message" name="message" rows="5" placeholder="Кратко опишите задачу: тип работ, площадь, желаемые сроки" required></textarea>
+                  <small class="field-error" id="err-message" aria-live="polite"></small>
+                </div>
+
+                <input type="text" name="company" tabindex="-1" autocomplete="off" style="display:none">
+
+                <button class="btn btn-primary form-main-submit" type="submit">Отправить заявку</button>
+                <p class="form-main-note" id="contacts-form-status" aria-live="polite">Заполните форму, и мы свяжемся с вами в ближайшее время.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-faq">
+        <div class="container reveal">
+          <h2 class="section-title">Частые вопросы</h2>
+          <div class="contact-faq-grid">
+            <details class="contact-faq-item">
+              <summary>Как быстро вы связываетесь после заявки?</summary>
+              <p>Обычно отвечаем в течение рабочего дня. По срочным вопросам лучше сразу звонить.</p>
+            </details>
+            <details class="contact-faq-item">
+              <summary>Можно ли получить предварительную смету онлайн?</summary>
+              <p>Да. Пришлите описание задачи, площадь и фото объекта — подготовим первичный расчет.</p>
+            </details>
+            <details class="contact-faq-item">
+              <summary>В каких городах вы работаете?</summary>
+              <p>Базируемся в Варшаве и выполняем проекты по всей Польше.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a class="floating-contact-btn" href="tel:+48500000000" aria-label="Быстро позвонить">Связаться</a>
+
+    <div id="contact-toast" class="contact-toast" role="status" aria-live="polite">
+      Заявка отправлена. Спасибо за обращение.
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html"><img src="images/logo.png" alt="GREEN-RESULT"><span>GREEN-RESULT</span></a>
+          <p class="footer-text">Поддержка ремонтных и отделочных проектов на польском рынке.</p>
+        </div>
+        <div>
+          <h3>Разделы</h3>
+          <a href="services.html">Услуги</a>
+          <a href="cases.html">Реализации</a>
+          <a href="about.html">О нас</a>
+        </div>
+        <div>
+          <h3>Часы связи</h3>
+          <p class="footer-text">Пн-Сб: 09:00-19:00</p>
+          <p class="footer-text">Ответ в течение рабочего дня</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>(c) <span id="year"></span> GREEN-RESULT</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/contacts.js"></script>
+</body>
+</html>

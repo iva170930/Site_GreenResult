@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реализации - GREEN-RESULT</title>
+  <meta name="description" content="Примеры работ GREEN-RESULT: ремонт и отделка объектов для клиентов в Польше.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-v2">
+  <div class="page-shell">
+    <header class="header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"><img src="images/logo.png" alt="GREEN-RESULT"><span>GREEN-RESULT</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+        <nav class="menu">
+          <a href="index.html">Главная</a>
+          <div class="nav-item">
+            <button class="nav-trigger" type="button" aria-expanded="false">Услуги</button>
+            <div class="dropdown-menu">
+              <a href="service-finishing.html">Ванные комнаты «под ключ»</a>
+              <a href="service-electrics.html">Электрика</a>
+              <a href="service-hydraulics.html">Сантехника</a>
+              <a href="service-floors.html">Отделка стен и полов</a>
+            </div>
+          </div>
+          <a href="cases.html">Реализации</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <button class="btn btn-primary" type="button" onclick="sendTG()">Связаться с нами</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="inner-hero">
+        <div class="container narrow reveal">
+          <p class="eyebrow">Реализованные проекты</p>
+          <h1>Примеры работ в эстетике и стандарте, востребованных в Польше</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container case-showcase">
+          <article class="case-showcase-card reveal">
+            <div class="case-pair">
+              <img src="images/cases/case1-before.jpg" alt="Ванная до ремонта">
+              <img src="images/cases/case1-after.jpg" alt="Ванная после ремонта">
+            </div>
+            <div class="case-copy">
+              <span class="feature-badge">Ванная комната</span>
+              <h2 class="section-title">Полное обновление и новая функциональность</h2>
+              <p>Замена инженерии, новая отделка, душевая зона и современный визуально чистый интерьер.</p>
+            </div>
+          </article>
+
+          <article class="case-showcase-card reveal">
+            <div class="case-pair">
+              <img src="images/cases/case2-before.jpg" alt="Кухня до ремонта">
+              <img src="images/cases/case2-after.jpg" alt="Кухня после ремонта">
+            </div>
+            <div class="case-copy">
+              <span class="feature-badge">Кухня</span>
+              <h2 class="section-title">Подготовка пространства под новую кухонную зону</h2>
+              <p>Перенос точек, улучшение освещения и аккуратная отделка под современный интерьер.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html">GREEN-RESULT</a>
+          <p class="footer-text">Кейсы, показывающие качество исполнения и внимание к деталям.</p>
+        </div>
+        <div>
+          <h3>Разделы</h3>
+          <a href="services.html">Услуги</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div>
+          <h3>Контакты</h3>
+          <a href="tel:+48500000000">+48 500 000 000</a>
+          <a href="mailto:iva170930@gmail.com">iva170930@gmail.com</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>(c) <span id="year"></span> GREEN-RESULT</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
